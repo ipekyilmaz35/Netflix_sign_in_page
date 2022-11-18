@@ -1,4 +1,4 @@
-# Netflix_sign_in_page
+# Netflix sign in page
 
 # GITHUB INDICATORS
 
@@ -7,7 +7,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/ipekyilmaz35/Test?style=for-the-badge)
 
 # Netflix_sign_in_page
-Hello, welcome to this lesson. Today I create with html file for Test. I use here html tags. 
+Hello, welcome to this lesson. Today I created a Netflix sign in page.
 
 ## ## RULES OF USE
 > *STEP-1:* `https://github.com/ipekyilmaz35/netflix_sign_in_page.git` <br/>
@@ -32,3 +32,7 @@ This project was developed using the following technologies
 
 ## SAMPLE SCREEN APPEARANCE
 ![There was a screenshot here](./screen-1.png)
+![There was a screenshot here](./screen-2.png)
+![There was a screenshot here](./screen-3.png)
+![There was a screenshot here](./screen-4.png)
+![There was a screenshot here](./screen-5.png)
