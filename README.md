@@ -25,7 +25,7 @@ This project was developed using the following technologies
 | No | Technique | Purpose |
 | - | ---------- | --------------------- |
 | 1 | HTML | Building a project skeleton |
-| 2 | SASS | Creating the style of theproject |
+| 2 | SASS | Creating the style of the project |
 | 3 | GIT |  Project version control management |
 | 4 | VSCode | Text editor used in the project |
 
