@@ -1,0 +1,384 @@
+@import "color";
+@import "size";
+@import "mixin";
+
+*{
+    margin: $m1;
+    padding: $p1;
+    box-sizing: border-box;
+}
+body{
+    width: $w1;
+    height: $h1;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: $c1;
+
+    header{
+        width: $w1;
+        height: $h2;
+        background-image: url(../image/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-bottom: 5px solid $c2;
+
+        nav{
+            width: $w1;
+            height: $h3;
+            @include flex1(center, space-between);
+    
+            .logo img{
+                width: $w2;
+                height: $h4;
+                margin-left: $ml1;
+            }
+        
+            .right-navbar{
+                width: $w14;
+                height: $h5;
+                padding: $p2;
+                margin: 0 20px 10px 0;
+                @include flex2(row, space-between);
+            
+                .select-box{
+                    @include flex3(center, center);
+                    width: $w17;
+                    height: $h6;
+                    background: $c6;
+                    position: relative;
+                    border-color: $c3;
+                    border-radius: $br1;
+                    
+                    i{
+                        position: absolute;
+                        left: 5px;
+                        color: $c3;
+                    }
+                    select{
+                        width: $w3;
+                        height: $h6;
+                        outline: none;
+                        background: $c6;
+                        border-color: $c5;
+                        border-radius: $br2;
+                        font-size: $s1;
+                        font-weight: 400;
+                        text-indent: $ti1;
+                        color: $c3;
+                    }
+                }
+                button{
+                    width: $w18;
+                    height: $h16;
+                    margin-top: $mt1;
+                    font-size: $s2;
+                    font-weight: 500;
+                    border: none;
+                    border-radius: $br2;
+                    background-color: $c4;
+                    color: $c3;
+                    cursor: pointer;
+                    }
+            }
+        }
+
+        .card-one{
+            @include flex4(column, center);
+
+            h1{
+                width: $w5;
+                height: $h7;
+                font-size: $s3;
+                text-align: center;
+                padding: 30px 100px;
+                color: $c3;
+            }
+            p{
+                color: $c3;
+                padding: 10px 20px 20px 20px;
+            }
+
+            .p-1{
+                font-size: $s4;
+            }
+
+            .p-2{
+            font-size: $s5;
+            }
+
+            .card-one-mailbox{
+                @include flex5(center, space-around);
+                width: $w6;
+                
+                input{
+                    width: $w7;
+                    height: $h8;
+                    text-indent: $ti1;
+                    font-size: $s7;
+                }
+                button{
+                    width: $w8;
+                    height: $h8;
+                    font-size: $s6;
+                    font-weight: 200;
+                    border-radius: $br2;
+                    border: none;
+                    background-color: $c4;
+                    color: $c3;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    section{
+        @include flex6(column, space-between);
+        width: $w1;
+        height: $h12;
+        border-bottom: 5px solid  $c2;
+
+        .section-card-one{
+            @include flex7(center, row, space-around);
+            height: $h9;
+            margin: $m2;
+            padding: $p3;
+            border-bottom: 5px solid  $c2;
+
+            .section-card-one-title{
+                width: $w10;
+                height: $h10;
+            }
+
+            h1{
+                color: $c3;
+                font-size: $s8;
+                margin: $m2;
+            }
+
+            p{
+                color: $c3;
+                font-size: $s9;
+                margin: 20px;
+            }
+        }
+
+        .section-card-two{
+            @include flex7(center, row, space-around);
+            height: $h9;
+            margin: $m2;
+            padding: $p3;
+            border-bottom: 5px solid  $c2;
+
+            .section-card-two-title{
+                width: $w10;
+                height: $h10;
+            }
+
+            h1{
+                color: $c3;
+                font-size: $s8;
+                padding: $p3;
+                margin-top: $mt2;
+            }
+
+            p{
+                color: $c3;
+                font-size: $s9;
+                padding: $p3;
+            }
+        }
+        .section-card-three{
+            @include flex7(center, row, space-around);
+            height: $h9;
+            margin: $m2;
+            padding: $p3;
+            border-bottom: 5px solid  $c2;
+
+            .section-card-three-title{
+                width: $w10;
+                height: $h10;
+            }
+
+            h1{
+                color: $c3;
+                font-size: $s8;
+                padding: $p3;
+                margin-top: $mt2;
+            }
+
+            p{
+                color: $c3;
+                font-size: $s9;
+                padding: $p3;
+            }
+        }
+        
+        .section-card-four{
+            @include flex7(center, row, space-around);
+            height: $h9;
+            margin: $m2;
+            padding: $p3;
+            border-bottom: 5px solid  $c2;
+
+            .section-card-four-title{
+                width: $w10;
+                height: $h10;
+            }
+
+            h1{
+                color: $c3;
+                font-size: $s8;
+                padding: $p3;
+                margin-top: $mt2;
+            }
+
+            p{
+                color: $c3;
+                font-size: $s9;
+                padding: $p3;
+            }
+        }
+
+        .section-card-five{
+            @include flex8(center, column, space-around);
+            height: $h12;
+            padding: $p3;
+
+            .section-card-five-title{
+                width: $w11;
+                height: $h5;
+                margin-top: $mt4
+            }
+
+            h1{
+                color: $c3;
+                font-size: $s10;
+                margin-left: $ml2;
+            }
+
+            .section-box{
+                width: $w15;
+                height: $h15;
+                margin-top: $mt3;
+                
+                i{
+                    float: right;
+                    margin-top: $mt5;
+                }
+            }
+            
+            p{
+                width: $w7;
+                height: $h5;
+                font-size: $s5;
+                padding: $p4;
+                margin: $m3;
+                background-color: $c2;
+                color: $c3;
+            }
+
+            .card-one-mailbox{
+                width: $w6;
+                @include flex5(center, space-around);
+                
+                input{
+                    width: $w7;
+                    height: $h8;
+                    text-indent: $ti1;
+                    font-size: $s7;
+                }
+                button{
+                    width: $w8;
+                    height: $h8;
+                    font-size: $s6;
+                    font-weight: 200;
+                    border-radius: $br2;
+                    border: none;
+                    background-color: $c4;
+                    color: $c3;
+                    cursor: pointer;
+                }
+            }
+
+            .membership{
+                width: $w16;
+                height: $h13;
+                margin: 25px  0 0 35px;
+                font-size: $s1;
+                color: $c3;
+            }
+        }
+    }
+
+    footer{
+        width: $w1;
+        height: $h11;
+        padding: $p3;
+        
+        p{
+            color: $c5;
+            margin: 20px 0 0 10px;
+        }
+
+        .footer-main{
+            @include flex7(center, row, space-around);
+            width: $w1;
+            height: $h14;
+
+            .footer ul{
+                list-style-type: none;
+                color: $c5;
+            }
+        }
+
+        .right-navbar{
+            @include flex2(row, space-between);
+            width: $w14;
+            height: $h5;
+            padding: $p2;
+            margin: 0 20px 10px 0;
+
+            .select-box{
+                @include flex3(center, center);
+                width: $w17;
+                height: $h6;
+                background: $c6;
+                position: relative;
+                border-color: $c3;
+                border-radius: $br1;
+                
+                i{
+                    position: absolute;
+                    left: 5px;
+                    color: $c3;
+                }
+                select{
+                    width: $w3;
+                    height: $h6;
+                    outline: none;
+                    background: $c6;
+                    border-color: $c5;
+                    border-radius: $br2;
+                    font-size: $s1;
+                    font-weight: 400;
+                    text-indent: $ti1;
+                    color: $c3;
+                }
+            }
+            button{
+                width: $w18;
+                height: $h16;
+                margin-top: $mt1;
+                font-size: $s2;
+                font-weight: 500;
+                border: none;
+                border-radius: $br2;
+                background-color: $c4;
+                color: $c3;
+                cursor: pointer;
+            }
+        }
+    }
+        .copyright{
+            margin-left: $ml3;
+            color: $c3;
+        }
+}

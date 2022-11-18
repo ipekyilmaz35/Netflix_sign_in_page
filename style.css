@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #141414;
+}
+
+header {
+  width: 100%;
+  height: 595px;
+  background-image: url(../image/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 5px solid #222222;
+}
+
+nav {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo img {
+  width: 160px;
+  height: 115px;
+  margin-left: 20px;
+}
+
+.right-navbar {
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: green;
+}
+
+.right-navbar .select-box {
+  width: 180px;
+  height: 40px;
+  background-color: burlywood;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.select-box i {
+  position: absolute;
+  left: 5px;
+}
+
+.section-box select option {
+  width: 140px;
+}
+
+.right-navbar select {
+  width: 120px;
+  height: 40px;
+  outline: none;
+  border: none;
+  background: transparent;
+  border-color: white;
+  border-radius: 2px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+.right-navbar button {
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.card-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-one h1 {
+  width: 700px;
+  height: 140px;
+  font-size: 45px;
+  text-align: center;
+  padding: 30px 100px;
+  color: white;
+}
+
+.card-one p {
+  color: white;
+  padding: 10px 20px 20px 20px;
+}
+
+.card-one .p-1 {
+  font-size: 28px;
+}
+
+.card-one .p-2 {
+  font-size: 20px;
+}
+
+.card-one-mailbox {
+  width: 670px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-one-mailbox input {
+  width: 500px;
+  height: 55px;
+  text-indent: 20px;
+}
+
+.card-one-mailbox button {
+  width: 240px;
+  height: 55px;
+  font-size: 22px;
+  font-weight: 200;
+  border-radius: 2px;
+  border: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+section {
+  width: 100%;
+  height: 2000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 5px solid #222222;
+}
+
+.section-card-one {
+  height: 800px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 5px solid #222222;
+}
+
+.section-card-one-title {
+  width: 350px;
+  height: 200px;
+}
+
+.section-card-one h1 {
+  color: white;
+  font-size: 35px;
+  margin: 20px;
+}
+
+.section-card-one p {
+  color: white;
+  font-size: 18px;
+  margin: 20px;
+}
+
+.section-card-two {
+  height: 800px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 5px solid #222222;
+}
+
+.section-card-two-title {
+  width: 350px;
+  height: 200px;
+}
+
+.section-card-two h1 {
+  color: white;
+  font-size: 35px;
+  padding: 20px;
+  margin-top: -30px;
+}
+
+.section-card-two p {
+  color: white;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.section-card-three {
+  height: 800px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 5px solid #222222;
+}
+
+.section-card-three-title {
+  width: 350px;
+  height: 200px;
+}
+
+.section-card-three h1 {
+  color: white;
+  font-size: 35px;
+  padding: 20px;
+  margin-top: -30px;
+}
+
+.section-card-three p {
+  color: white;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.section-card-four {
+  height: 800px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 5px solid #222222;
+}
+
+.section-card-four-title {
+  width: 350px;
+  height: 200px;
+}
+
+.section-card-four h1 {
+  color: white;
+  font-size: 35px;
+  padding: 20px;
+  margin-top: -30px;
+}
+
+.section-card-four p {
+  color: white;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.section-card-five {
+  height: 2000px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.section-card-five-title {
+  width: 650px;
+  height: 50px;
+  margin-top: -5px;
+}
+
+.section-card-five h1 {
+  color: white;
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+.section-box {
+  width: 500px;
+  margin-top: 10px;
+}
+
+.section-card-five p {
+  width: 500px;
+  height: 40px;
+  font-size: 15px;
+  padding: 12px;
+  margin: 4px;
+  background-color: #222222;
+  color: white;
+}
+
+.section-card-five .section-box i {
+  float: right;
+}
+
+.section-card-five .card-one-mailbox {
+  width: 600px;
+  height: 90px;
+  margin-left: 15px;
+}
+
+.membership {
+  width: 480px;
+  height: 20px;
+  margin-left: 10px;
+  font-size: 15px;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  height: 350px;
+  padding: 20px;
+}
+
+footer p {
+  color: darkgray;
+  margin: 20px 0 0 10px;
+}
+
+.footer-main {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-main .footer ul {
+  list-style-type: none;
+  color: darkgray;
+}
+
+.copyright {
+  margin-left: 10px;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

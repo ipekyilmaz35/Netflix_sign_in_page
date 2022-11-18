@@ -1,0 +1,48 @@
+@mixin flex1($a, $j) {
+    display: flex;
+    align-items: $a;
+    justify-content: $j;
+}
+
+@mixin flex2($d, $j) {
+    display: flex;
+    flex-direction: $d,;
+    justify-content: $j;
+}
+
+@mixin flex3($a, $j) {
+    display: flex;
+    align-items: $a;
+    justify-content: $j;
+}
+
+@mixin flex4($d, $a) {
+    display: flex;
+    flex-direction: $d;
+    align-items: $a;
+}
+
+@mixin flex5($a, $j) {
+    display: flex;
+    align-items: $a;
+    justify-content: $j;
+}
+
+@mixin flex6($d, $j) {
+    display: flex;
+    flex-direction: $d;
+    justify-content: $j;
+}
+@mixin flex7($a, $d, $j) {
+    display: flex;
+    align-items: $a;
+    flex-direction: $d;
+    justify-content: $j;
+}
+
+@mixin flex8($a, $d, $j) {
+    display: flex;
+    align-items: $a;
+    flex-direction: $d;
+    justify-content: $j;    
+}
